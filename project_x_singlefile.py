@@ -25,6 +25,8 @@ from sqlalchemy import (
 )
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker, relationship
+from priority_component_fixed import render_priority_lead_card
+
 
 # Optional ML dependency: joblib; if absent we continue without model
 try:
